@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "azurefunctionspydanticmcptotoolproperty"
 version = "0.1.0"
-description = " convert Pydantic in toolProperties"
+description = "Convert Pydantic models to Azure Functions MCP toolProperties"
 readme = "README.md"
 requires-python = ">=3.7"
 license = {text = "MIT"}
@@ -13,11 +13,11 @@ authors = [
     {name = "zecloud", email = "votre@email.com"}
 ]
 dependencies = [
-    "pydantic"
+    "pydantic>=2.0.0"
 ]
 
 [project.urls]
-Homepage = "https://github.com/zecloud/azurefunctionsmcpydantic
+Homepage = "https://github.com/zecloud/azurefunctionsmcpydantic"
 
 [tool.setuptools]
 packages = ["AzureFunctionsMCPPydanticTool"]
