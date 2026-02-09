@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "azurefunctionspydanticmcptotoolproperty"
+version = "0.1.0"
+description = " convert Pydantic in toolProperties"
+readme = "README.md"
+requires-python = ">=3.7"
+license = {text = "MIT"}
+authors = [
+    {name = "zecloud", email = "votre@email.com"}
+]
+dependencies = [
+    "pydantic"
+]
+
+[project.urls]
+Homepage = "https://github.com/zecloud/azurefunctionsmcpydantic
+
+[tool.setuptools]
+packages = ["AzureFunctionsMCPPydanticTool"]
